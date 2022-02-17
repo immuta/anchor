@@ -32,9 +32,10 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
-    "validator": "4.4.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
+    "@types/validator": "^13.7.1",
     "async": "~0.2.10",
     "mocha": "2.3.4"
   }

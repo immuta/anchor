@@ -100,7 +100,8 @@ describe('miscellaneous rules', function() {
     });
   });
 
-  describe('geojson', function () {
+  // Removed geojson support to avoid a CVE
+  describe.skip('geojson', function () {
     var jsondef = {
       type: 'json',
       geojson: true
